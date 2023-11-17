@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 
 public class RadioTest {
     @Test
-    public void shouldStationsCount(){
+    public void shouldStationsCount() {
         Radio radio = new Radio(20);
         radio.setCurrentStation(18);
         int expected = 18;
         int actual = radio.getCurrentStation();
-        Assertions.assertEquals(actual,expected);
+        Assertions.assertEquals(actual, expected);
     }
 
     @Test
